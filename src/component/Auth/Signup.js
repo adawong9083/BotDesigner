@@ -1,4 +1,4 @@
-import '../App.css';
+
 import './login.css';
 import Header from './Landing/Header' 
 import React from 'react';

@@ -185,13 +185,13 @@ function ProjectList(props) {
 			<div className="pagination-block">
 				<nav aria-label="Page navigation example">
 					<ul class="pagination">
-						<li class="page-item"><a class="page-link" href="#"><span data-tip="First page">&laquo;</span> Previous</a></li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item"><a class="page-link" href="#">4</a></li>
-						<li class="page-item"><a class="page-link" href="#">5</a></li>
-						<li class="page-item"><a class="page-link" href="#">Next <span data-tip="Last page">&raquo;</span></a></li>
+						<li class="page-item"><Link class="page-link" to="#"><span data-tip="First page">&laquo;</span> Previous</Link></li>
+						<li class="page-item active"><Link class="page-link" to="#">1</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">2</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">3</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">4</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">5</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">Next <span data-tip="Last page">&raquo;</span></Link></li>
 					</ul>
 					<ReactTooltip/>
 					<ReactTooltip/>
@@ -277,7 +277,7 @@ function ProjectList(props) {
 						</Row>            
 					</div>
           <div className="btn-block">
-              <a href="#0" onClick={toggle1}>Close</a>
+              <Link to="#0" onClick={toggle1}>Close</Link>
             </div>
 				</div>
 			</ModalBody>

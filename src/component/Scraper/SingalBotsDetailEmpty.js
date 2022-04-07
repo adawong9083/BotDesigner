@@ -1,16 +1,16 @@
-import '../App.css';
-import '../component/project-detail-empty.css';
 import React from 'react';
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
 import { Table } from 'reactstrap';
-import Breadcrumbs from './breadcrumbs'
 
-function SingalBotsDetailEmpty(props) {
+import '../Project/ProjectDetailEmpty.css';
+
+import Breadcrumbs from '../Layout/Breadcrumbs'
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch' 
+
+function SingalBotsDetailEmpty() {
   return (
     <>
-
-    <InnerHeader/>
+      <InnerHeader/>
       <section className="project-detail-empty">
         <Breadcrumbs />
         <TopSearch />
@@ -33,7 +33,6 @@ function SingalBotsDetailEmpty(props) {
           </div>
         </div>
       </section>
-    
     </>    
   );
 }

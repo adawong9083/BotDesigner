@@ -3,11 +3,11 @@ import { Table, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } f
 import {Link} from "react-router-dom";
 import ReactMultiSelectCheckboxes from 'react-multiselect-checkboxes';
 
-import '../component/project-detail-empty.css';
+import './ProjectDetailEmpty.css';
 
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
-import Breadcrumbs from '../component/breadcrumbs'
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch' 
+import Breadcrumbs from '../Layout/Breadcrumbs'
 
 import icon33 from '../../images/icon33.svg'
 import icon34 from '../../images/icon34.svg'
@@ -34,8 +34,7 @@ function ProjectDetailEmpty(props) {
 
   return (
     <>
-
-    <InnerHeader/>
+    	<InnerHeader/>
       <section className="project-detail-empty">
         <Breadcrumbs />
         <TopSearch />

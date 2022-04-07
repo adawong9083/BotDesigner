@@ -1,10 +1,10 @@
-import '../App.css';
+
 import '../component/categories-bots-list.css';
 import React, {useState} from 'react';
 import InnerHeader from '../component/InnerHeader'
 import TopSearch from '../component/top-serarch' 
 import {Container, Row, Col, Accordion, AccordionItem , AccordionHeader, AccordionBody } from 'reactstrap';
-import Breadcrumbs from '../component/breadcrumbs'
+import Breadcrumbs from '../Layout/Breadcrumbs'
 import ReactTooltip from 'react-tooltip';
 
 function DesignerSimpleEmpty(props) {

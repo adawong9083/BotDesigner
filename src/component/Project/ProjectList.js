@@ -7,9 +7,9 @@ import ReactMultiSelectCheckboxes from 'react-multiselect-checkboxes';
 import './ProjectList.css';
 
 import InnerHeader from '../Layout/InnerHeader'
-import TopSearch from '../TopSearch' 
+import TopSearch from '../Layout/TopSearch' 
+import Breadcrumbs from '../Layout/Breadcrumbs'
 
-import Breadcrumbs from '../breadcrumbs'
 import Img1 from '../../images/img1.svg';
 import icon25 from '../../images/icon25.svg';
 import icon26 from '../../images/icon26.svg';
@@ -249,11 +249,11 @@ function ProjectList(props) {
 													<ReactTooltip />
 												</div>
 											</Link>
-											<Link data-tip="Duplicate" href="/#0">
+											<Link data-tip="Duplicate" to="/#0">
 												<img src={icon30} alt="icon30" />
 												<ReactTooltip />
 											</Link>
-											<Link data-tip="Import bots/scrapers (without datasets)" href="/#0">
+											<Link data-tip="Import bots/scrapers (without datasets)" to="/#0">
 												<img src={icon31} alt="icon31" />
 												<ReactTooltip />
 											</Link>
@@ -316,11 +316,11 @@ function ProjectList(props) {
 													<ReactTooltip />
 												</div>
 											</Link>
-											<Link data-tip="Duplicate" href="/#0">
+											<Link data-tip="Duplicate" to="/#0">
 												<img src={icon30} alt="icon30" />
 												<ReactTooltip />
 											</Link>
-											<Link data-tip="Import bots/scrapers (without datasets)" href="/#0">
+											<Link data-tip="Import bots/scrapers (without datasets)" to="/#0">
 												<img src={icon31} alt="icon31" />
 												<ReactTooltip />
 											</Link>
@@ -383,11 +383,11 @@ function ProjectList(props) {
 													<ReactTooltip />
 												</div>
 											</Link>
-											<Link data-tip="Duplicate" href="/#0">
+											<Link data-tip="Duplicate" to="/#0">
 												<img src={icon30} alt="icon30" />
 												<ReactTooltip />
 											</Link>
-											<Link data-tip="Import bots/scrapers (without datasets)" href="/#0">
+											<Link data-tip="Import bots/scrapers (without datasets)" to="/#0">
 												<img src={icon31} alt="icon31" />
 												<ReactTooltip />
 											</Link>
@@ -410,13 +410,13 @@ function ProjectList(props) {
 				<div className="pagination-block">
 					<nav aria-label="Page navigation example">
 						<ul class="pagination">
-							<li class="page-item"><a class="page-link" href="#"><span data-tip="First page">&laquo;</span> Previous</a></li>
-							<li class="page-item active"><a class="page-link" href="#">1</a></li>
-							<li class="page-item"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item"><a class="page-link" href="#">4</a></li>
-							<li class="page-item"><a class="page-link" href="#">5</a></li>
-							<li class="page-item"><a class="page-link" href="#">Next <span data-tip="Last page">&raquo;</span></a></li>
+							<li class="page-item"><Link class="page-link" to="#"><span data-tip="First page">&laquo;</span> Previous</Link></li>
+							<li class="page-item active"><Link class="page-link" to="#">1</Link></li>
+							<li class="page-item"><Link class="page-link" to="#">2</Link></li>
+							<li class="page-item"><Link class="page-link" to="#">3</Link></li>
+							<li class="page-item"><Link class="page-link" to="#">4</Link></li>
+							<li class="page-item"><Link class="page-link" to="#">5</Link></li>
+							<li class="page-item"><Link class="page-link" to="#">Next <span data-tip="Last page">&raquo;</span></Link></li>
 						</ul>
 						<ReactTooltip/>
 						<ReactTooltip/>

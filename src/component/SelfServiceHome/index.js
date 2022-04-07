@@ -2,9 +2,9 @@ import React from 'react';
 import { } from 'reactstrap';
 import {Link} from "react-router-dom";
 
-import InnerHeader from '../Layout/InnerHeader' 
-// import '../../App.css';
 import '../Landing/login.css';
+
+import InnerHeader from '../Layout/InnerHeader' 
 
 import Icon12 from '../../images/icon12.svg'
 import Icon13 from '../../images/icon13.svg'

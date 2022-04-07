@@ -1,17 +1,18 @@
-import '../App.css';
-import '../component/categories-list-empty.css';
 import React from 'react';
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
 import { Table, Form, FormGroup, Label, Input  } from 'reactstrap';
-import Breadcrumbs from '../component/breadcrumbs'
-import Icon20Hover from '../images/icon20-hover.svg'
 
-function CategoriesListEmpty(props) {
+import './CategoriesListEmpty.css';
+
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch' 
+import Breadcrumbs from '../Layout/Breadcrumbs'
+
+import Icon20Hover from '../../images/icon20-hover.svg'
+
+function CategoriesListEmpty() {
   return (
     <>
-
-    <InnerHeader/>
+      <InnerHeader/>
       <section className="project-detail-empty">
         <Breadcrumbs />
         <TopSearch />
@@ -44,8 +45,8 @@ function CategoriesListEmpty(props) {
           </div>
         </div>
       </section>
-    
     </>    
   );
 }
+
 export default CategoriesListEmpty;

@@ -1,27 +1,28 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import '../component/new-scarper.css';
 import { Form, Label, FormGroup, Input, Nav, NavItem, NavLink, TabContent, TabPane, ButtonGroup } from 'reactstrap';
-
-import InnerHeader from '../Layout/InnerHeader';
 import Button from '@restart/ui/esm/Button';
 import ReactTooltip from 'react-tooltip';
 
-import pluseIcon from '../images/pluseIcon.png'
-import searchIcon from '../images/searchIcon.png'
-import uploadIcon from '../images/uploadIcon.png'
-import downloadIcon from '../images/downloadIcon.png'
-import eyeIcon from '../images/eyeIcon.png'
-import info from '../images/info.png';
-import clearIcon from '../images/clearIcon.png';
-import settingIcon from '../images/settingIcon.png';
-import saveBot from '../images/saveBot.png';
-import shoping from '../images/shoping.png';
-import whiteSearch from '../images/whiteSearch.png';
-import searchTeam from '../images/searchTeam.png';
-import searchTeamTwo from '../images/searchTeamTwo.png';
-import filtterIcon from '../images/filtterIcon.png';
-import recordIcon from '../images/recordIcon.png';
+import '../Scraper/NewScraper.css';
+
+import InnerHeader from '../Layout/InnerHeader';
+
+import pluseIcon from '../../images/pluseIcon.png'
+import searchIcon from '../../images/searchIcon.png'
+import uploadIcon from '../../images/uploadIcon.png'
+import downloadIcon from '../../images/downloadIcon.png'
+import eyeIcon from '../../images/eyeIcon.png'
+import info from '../../images/info.png';
+import clearIcon from '../../images/clearIcon.png';
+import settingIcon from '../../images/settingIcon.png';
+import saveBot from '../../images/saveBot.png';
+import shoping from '../../images/shoping.png';
+import whiteSearch from '../../images/whiteSearch.png';
+import searchTeam from '../../images/searchTeam.png';
+import searchTeamTwo from '../../images/searchTeamTwo.png';
+import filtterIcon from '../../images/filtterIcon.png';
+import recordIcon from '../../images/recordIcon.png';
 
 
 

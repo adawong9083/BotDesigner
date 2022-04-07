@@ -19,7 +19,7 @@ import uplaodIcon from '../../images/Upload-Icon.svg'
 
 function TopSearch(props) {
 
-  const vegetableData: {[param: string]: Object}[] = [
+  const vegetableData = [
     { vegetable: 'KCOM Colourpage', category: 'Lead Extraction', id: 'item1' },
     { vegetable: 'Yellow Page Spain ', category: 'Lead Extraction', id: 'item2' },
     { vegetable: 'Yelp.de Germany', category: 'Lead Extraction', id: 'item3' },
@@ -29,9 +29,9 @@ function TopSearch(props) {
     { vegetable: 'Opinions on Jesuus "catholicforum.com"', category: 'Web scraping for sentiment analysis', id: 'item7' },
     { category: 'Trading info and trends data extraction', id: 'item8' },
   ];
-  const fields: object = { groupBy: 'category', text: 'vegetable', value: 'id' };
+  const fields = { groupBy: 'category', text: 'vegetable', value: 'id' };
 
-  const vegetableData1: {[param: string]: Object}[] = [
+  const vegetableData1 = [
     { vegetable: 'Linkedin UK comments on G20', category: 'Social comments on G20', id: 'item1' },
     { vegetable: 'Q&A about G20 on Quora ', category: 'Social comments on G20', id: 'item2' },
     { vegetable: 'Comments on G20 Twitter', category: 'Social comments on G20', id: 'item3' },
@@ -41,7 +41,7 @@ function TopSearch(props) {
     { category: 'What people think about religions worldwide', id: 'item7' },
     { category: 'Cryptocurrencies price and trends', id: 'item8' },
   ];
-  const fields1:object = { groupBy: 'category', text: 'vegetable', value: 'id' };
+  const fields1 = { groupBy: 'category', text: 'vegetable', value: 'id' };
 
   const [modal1, setModal1] = useState(false);
   const toggle1 = () => setModal1(!modal1);
@@ -95,19 +95,19 @@ function TopSearch(props) {
       <div className="project-search">        
         <ul>
           <li>
-            <a onClick={toggle1} TopCenter data-tip="Export bots in bulk (no datasets)">
+            <Link onClick={toggle1} TopCenter data-tip="Export bots in bulk (no datasets)">
               <img src={icon22} alt="Icon22"/>
-            </a>
+            </Link>
             <ReactTooltip/>
           </li>
           <li>
-            <a onClick={toggle2} TopCenter data-tip="Import bots in bulk">
+            <Link onClick={toggle2} TopCenter data-tip="Import bots in bulk">
               <img src={icon23} alt="Icon23"/>
-            </a>
+            </Link>
             <ReactTooltip/>
           </li>
           <li>
-            <Link data-tip="Notiﬁcations &amp; announcements" href="#0">
+            <Link data-tip="Notiﬁcations &amp; announcements" to="#0">
               <img src={icon24} alt="Icon24"/>
             </Link>
             <ReactTooltip/>

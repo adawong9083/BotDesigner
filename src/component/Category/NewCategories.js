@@ -2,13 +2,13 @@ import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import { Form, FormGroup, Input, Label, Modal, ModalHeader, Table, ModalBody   } from 'reactstrap';
 
-import './Project/NewProject.css';
+import '../Project/NewProject.css';
 
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch' 
 
-import Icon20Hover from '../images/icon20-hover.svg'
-import uplaodIcon from '../images/Upload-Icon.svg'
+import Icon20Hover from '../../images/icon20-hover.svg'
+import uplaodIcon from '../../images/Upload-Icon.svg'
 
 
 function NewCat(props) {

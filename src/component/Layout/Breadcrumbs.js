@@ -10,17 +10,17 @@ function breadcrumbs() {
 	<>
         <Breadcrumb>
             <BreadcrumbItem>
-                <Link href="/#0">
+                <Link to="/#0">
                     <span>Project</span>
                 </Link>
             </BreadcrumbItem>
             <BreadcrumbItem>
-                <Link href="/#0">
+                <Link to="/#0">
                     <span>Smart TVs price comparison (ID# 0001234)</span>
                 </Link>
             </BreadcrumbItem>
             <BreadcrumbItem>
-                <Link href="/#0">
+                <Link to="/#0">
                     <span>Scrapers</span>
                 </Link>
             </BreadcrumbItem>

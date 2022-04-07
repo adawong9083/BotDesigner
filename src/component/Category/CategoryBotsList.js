@@ -1,23 +1,24 @@
-import '../App.css';
-import '../component/categories-bots-list.css';
+
 import React from 'react';
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
 import { Table } from 'reactstrap';
-import Breadcrumbs from '../component/breadcrumbs'
 import ReactTooltip from 'react-tooltip';
 import {Link} from "react-router-dom";
-import icon27 from '../images/icon27.svg';
-import icon28 from '../images/icon28.svg';
-import icon29 from '../images/icon29.svg';
-import icon30 from '../images/icon30.svg';
 
-function categoryBotsList(props) {
+import './CategoriesBotsList.css';
+
+import Breadcrumbs from '../Layout/Breadcrumbs'
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch' 
+
+import icon27 from '../../images/icon27.svg';
+import icon28 from '../../images/icon28.svg';
+import icon29 from '../../images/icon29.svg';
+import icon30 from '../../images/icon30.svg';
+
+function categoryBotsList() {
   return (
     <>
-    
     <InnerHeader/>
-
     <section className="project-list cat-bot-list">
       <Breadcrumbs />
       <TopSearch />
@@ -143,13 +144,13 @@ function categoryBotsList(props) {
 		<div className="pagination-block">
 				<nav aria-label="Page navigation example">
 					<ul class="pagination">
-						<li class="page-item"><a class="page-link" href="#"><span data-tip="First page">&laquo;</span> Previous</a></li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item"><a class="page-link" href="#">4</a></li>
-						<li class="page-item"><a class="page-link" href="#">5</a></li>
-						<li class="page-item"><a class="page-link" href="#">Next <span data-tip="Last page">&raquo;</span></a></li>
+						<li class="page-item"><Link class="page-link" to="#"><span data-tip="First page">&laquo;</span> Previous</Link></li>
+						<li class="page-item active"><Link class="page-link" to="#">1</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">2</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">3</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">4</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">5</Link></li>
+						<li class="page-item"><Link class="page-link" to="#">Next <span data-tip="Last page">&raquo;</span></Link></li>
 					</ul>
 					<ReactTooltip/>
 					<ReactTooltip/>
