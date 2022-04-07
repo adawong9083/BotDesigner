@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import '../component/new-scarper.css';
 import { Form, Label, FormGroup, Input, Nav, NavItem, NavLink, TabContent, TabPane, ButtonGroup } from 'reactstrap';
 
-import InnerHeader from './Layout/InnerHeader';
+import InnerHeader from '../Layout/InnerHeader';
 import Button from '@restart/ui/esm/Button';
 import ReactTooltip from 'react-tooltip';
 

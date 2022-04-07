@@ -13,7 +13,7 @@ import CatList from '../categories-list';
 import categoryBotsList from '../category-bots-list';
 import CategoriesDetailEmpty from '../categories-detail-empty';
 import NewCat from '../new-categories';
-import NewScarper from '../new-scarper';
+import NewScarper from '../Project/new-scarper';
 import DesignerSimpleFilters from '../designer-simple-filters';
 import DesignerSimpleItemPath from '../designer-simple-item-path';
 import DesignerSimpleItemPathResult from '../designer-simple-item-path-result';

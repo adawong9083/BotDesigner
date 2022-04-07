@@ -7,7 +7,7 @@ import './ProjectBotsList.css';
 
 import InnerHeader from '../Layout/InnerHeader'
 import TopSearch from '../Layout/TopSearch'
-import Breadcrumbs from '../component/breadcrumbs'
+import Breadcrumbs from '../Layout/Breadcrumbs'
 
 
 import Img1 from '../../images/img1.svg';

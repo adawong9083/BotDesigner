@@ -6,7 +6,7 @@ import { Form, FormGroup, Label, Input, Modal, ModalHeader, ModalBody  } from 'r
 import './NewProject.css';
 
 import InnerHeader from '../Layout/InnerHeader'
-import TopSearch from '../TopSearch'
+import TopSearch from '../Layout/TopSearch'
 
 import Icon18Hover from '../../images/icon18-hover.svg'
 import uplaodIcon from '../../images/Upload-Icon.svg'
