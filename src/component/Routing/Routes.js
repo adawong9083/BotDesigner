@@ -3,9 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import SelfServiceHome from '../SelfServiceHome';
 import NewProject from '../Project/NewProject';
-import ProjectList from '../project-list';
-import ProjectDetailEmpty from '../project-detail-empty';
-import ProjectBotsList from '../project-bots-list';
+import ProjectList from '../Project/ProjectList';
+import ProjectDetailEmpty from '../Project/ProjectDetailEmpty';
+import ProjectBotsList from '../Project/ProjectBotsList';
 import SingalBotsDetailEmpty from '../singal-bots-detail-empty';
 import SingleBotDatasets from '../single-bot-datasets';
 import CategoriesListEmpty from '../categories-list-empty';
@@ -24,11 +24,11 @@ const Routes = () => {
   return (
     <section className="container">
       <Switch>
-        <Route path='/SelfServiceHome' component={SelfServiceHome} />
+        <Route path='/self-service-home' component={SelfServiceHome} />
         <Route path='/new-project' component={NewProject} />
         <Route path='/project-list' component={ProjectList} />
-        {/* <Route path='/project-detail-empty' component={ProjectDetailEmpty} /> */}
-        {/* <Route path='/project-bots-list' component={ProjectBotsList} /> */}
+        <Route path='/project-detail-empty' component={ProjectDetailEmpty} />
+        <Route path='/project-bots-list' component={ProjectBotsList} />
         {/* <Route path='/singal-bots-detail-empty' component={SingalBotsDetailEmpty} /> */}
         {/* <Route path='/single-bot-datasets' component={SingleBotDatasets} /> */}
         {/* <Route path='/categories-list' component={CatList} />  */}

@@ -1,17 +1,20 @@
-import '../App.css';
-import '../component/project-bots-list.css';
 import React, {useState} from 'react';
 import {Link} from "react-router-dom";
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
-import { Table, Modal, ModalHeader,ModalBody, ModalFooter, Row, Col } from 'reactstrap';
-import Breadcrumbs from '../component/breadcrumbs'
 import ReactTooltip from 'react-tooltip';
-import Img1 from '../images/img1.svg';
-import icon27 from '../images/icon27.svg';
-import icon28 from '../images/icon28.svg';
-import icon29 from '../images/icon29.svg';
-import icon30 from '../images/icon30.svg';
+import { Table, Modal, ModalHeader,ModalBody, ModalFooter, Row, Col } from 'reactstrap';
+
+import './ProjectBotsList.css';
+
+import InnerHeader from '../Layout/InnerHeader'
+import TopSearch from '../Layout/TopSearch'
+import Breadcrumbs from '../component/breadcrumbs'
+
+
+import Img1 from '../../images/img1.svg';
+import icon27 from '../../images/icon27.svg';
+import icon28 from '../../images/icon28.svg';
+import icon29 from '../../images/icon29.svg';
+import icon30 from '../../images/icon30.svg';
 
 function ProjectList(props) {
 

@@ -5,14 +5,14 @@ import ReactTooltip from 'react-tooltip';
 import ReactMultiSelectCheckboxes from 'react-multiselect-checkboxes';
 import { CheckBoxSelection, Inject, MultiSelectComponent } from '@syncfusion/ej2-react-dropdowns';
 
-import '../component/TopSearch.css';
+import './TopSearch.css';
 
-import icon22 from '../images/icon22.svg'
-import icon23 from '../images/icon23.svg'
-import icon24 from '../images/icon24.svg'
-import icon38 from '../images/icon21-hover.svg';
-import dataSet from '../images/dataSet.png';
-import uplaodIcon from '../images/Upload-Icon.svg'
+import icon22 from '../../images/icon22.svg'
+import icon23 from '../../images/icon23.svg'
+import icon24 from '../../images/icon24.svg'
+import icon38 from '../../images/icon21-hover.svg';
+import dataSet from '../../images/dataSet.png';
+import uplaodIcon from '../../images/Upload-Icon.svg'
 
 
 

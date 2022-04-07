@@ -26,7 +26,7 @@ function Login(props) {
             </Link>
           </li>
           <li>
-            <Link to="/SelfServiceHome">
+            <Link to="/self-service-home">
               <img src={Icon5} alt="Icon" />
               <span className="login-text">Login</span>
       	    </Link>

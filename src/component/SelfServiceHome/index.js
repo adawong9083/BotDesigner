@@ -23,7 +23,7 @@ function SelfServiceHome() {
           <h3>From here, you can control your proﬁle, manage your plans, payment, data extraction projects, and look for help.</h3>
           <ul>
             <li>
-              <Link to="/SelfServiceHome">
+              <Link to="/self-service-home">
                 <img src={Icon12} alt="Icon" />
                 <span className="login-text">Home</span>
               </Link>

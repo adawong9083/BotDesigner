@@ -1,12 +1,14 @@
-import '../App.css';
-import '../component/project-list.css';
 import React from 'react';
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
-import { Table } from 'reactstrap';
-import Breadcrumbs from '../component/breadcrumbs'
 import ReactTooltip from 'react-tooltip';
 import {Link} from "react-router-dom";
+import { Table } from 'reactstrap';
+
+import './Project/ProjectList.css';
+
+import InnerHeader from './Layout/InnerHeader'
+import TopSearch from './TopSearch' 
+import Breadcrumbs from '../component/breadcrumbs'
+
 import icon27 from '../images/icon27.svg';
 import icon28 from '../images/icon28.svg';
 import icon29 from '../images/icon29.svg';

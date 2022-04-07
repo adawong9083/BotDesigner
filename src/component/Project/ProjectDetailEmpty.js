@@ -1,16 +1,18 @@
-import '../App.css';
-import '../component/project-detail-empty.css';
 import React, {useState} from 'react';
-import InnerHeader from './Layout/InnerHeader'
-import TopSearch from './TopSearch' 
 import { Table, Modal, ModalHeader, ModalBody, Form, FormGroup, Label, Input } from 'reactstrap';
 import {Link} from "react-router-dom";
-import Breadcrumbs from '../component/breadcrumbs'
-import icon33 from '../images/icon33.svg'
-import icon34 from '../images/icon34.svg'
-import icon35 from '../images/icon35.svg'
-import uplaodIcon from '../images/Upload-Icon.svg';
 import ReactMultiSelectCheckboxes from 'react-multiselect-checkboxes';
+
+import '../component/project-detail-empty.css';
+
+import InnerHeader from './Layout/InnerHeader'
+import TopSearch from './TopSearch' 
+import Breadcrumbs from '../component/breadcrumbs'
+
+import icon33 from '../../images/icon33.svg'
+import icon34 from '../../images/icon34.svg'
+import icon35 from '../../images/icon35.svg'
+import uplaodIcon from '../../images/Upload-Icon.svg';
 
 function ProjectDetailEmpty(props) {
 

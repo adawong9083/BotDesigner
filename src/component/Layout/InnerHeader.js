@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import { Row, Col, Modal, ModalHeader, ModalBody, Label, Form, FormGroup, Input} from 'reactstrap';
 import {Link} from "react-router-dom";
 
-import '../../App.css';
-import './inner-header.css';
+import './InnerHeader.css';
 
 import innerlogo from '../../images/innerlogo.png'
 import Icon2 from '../../images/icon2.svg'

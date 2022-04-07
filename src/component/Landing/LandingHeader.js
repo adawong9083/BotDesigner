@@ -26,7 +26,7 @@ function Header() {
                 </Link>
 							</li>
 							<li>
-                <Link to="/SelfServiceHome" data-tip="Login">
+                <Link to="/self-service-home" data-tip="Login">
                   <img src={Icon2} alt="Icon" />
                 </Link>
 								<ReactTooltip />
